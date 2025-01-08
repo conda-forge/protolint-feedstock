@@ -1,5 +1,5 @@
 {% set name = "protolint" %}
-{% set version = "0.51.0" %}
+{% set version = "0.52.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/yoheimuta/protolint/archive/v{{ version }}.tar.gz
-  sha256: fce29acc2c5bb274b71392986144287ec72f297dbbd3f15cb28ab4fa1a59c844
+  sha256: 4a5d866a9d64ce36ce08df2c2352230c3e831e9695c3bdd76933fcc199b68529
 
 build:
   number: 0
