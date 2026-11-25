@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.58.0"
+  version: "0.59.1"
 
 package:
   name: protolint
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/yoheimuta/protolint/archive/v${{ version }}.tar.gz
-  sha256: 7d5f4650ed23f68c34a6be1ba77fb3661dd4b7b28b64664a479b6835febceb18
+  sha256: dc8c48dc380f8ee362b7855c5677cc076995bcaf8633bf2b731add0f6052c0ff
 
 build:
   number: 0
